@@ -17,7 +17,7 @@ func suma(nombre string, num ...int) {
 	for _, v := range num {
 		total += v
 	}
-	fmt.Printf("El nombre del alumno %s la suma es: %d", nombre, total)
+	fmt.Printf("El nombre del alumno %s la  suma es:  %d", nombre, total)
 
 }
 
